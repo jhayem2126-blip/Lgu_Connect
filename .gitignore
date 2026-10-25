@@ -1,0 +1,16 @@
+# Build output
+bin/
+obj/
+publish/
+artifacts/
+TestResults/
+*.user
+.vs/
+
+# Local secrets - never commit
+appsettings.local.json
+**/appsettings.local.json
+*.pfx
+
+# Test/visual output
+tests/**/screenshots/
